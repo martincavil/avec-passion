@@ -1,9 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// Colors
+  // https://flatuicolors.com/palette/tr
 
-a {
-    text-decoration: none;
-}
+  $bcg-primary: #F8F8F8 ;
+  $bcg-secondary: #4b4b4b;
+  $primary-color: #7d5fff ;
+  $secondary-color: #7158e2;
+  
+  
+  // Fonts
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+  $primary-font: 'nunito', sans-serif;
+  
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+  $logo-font : 'Kanit', sans-serif;
+  // Others
+  
+  $border-radius: 8px;
+  
+.container {
+    padding: 10% 50px;
+  }
+
+  .button1 {
+        padding: 10px 20px;
+        background-color: $primary-color;
+        color: white;
+        border-radius: $border-radius;
+        font-weight: 700;
+  }

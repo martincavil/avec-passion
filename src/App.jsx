@@ -6,12 +6,15 @@ import Journey from './components/journey/Journey'
 import Footer from './components/footer/Footer'
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <Story />
-      <Journey />
-      <Footer />
+    <div className="app">
+      <header>
+        <Navbar />
+      </header>
+      <div className="sections">
+        <Hero />
+        <Story />
+        <Journey />
+      </div>
     </div>
   );
 }

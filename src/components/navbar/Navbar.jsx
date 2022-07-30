@@ -4,7 +4,26 @@ import './navbar.scss'
 export default function Navbar() {
   return (
     <div className='navbar'>
-        <h2>Av<span>e</span>c Passion</h2>
+      <ul>
+        <div className="left">
+          <li>
+            <a href="#hero">
+              <h2>Av<span>e</span>c Passion</h2>
+            </a>
+          </li>
+        </div>
+        <div className="center">
+          <li>
+            <a href="#story">Pourquoi ?</a>
+          </li>
+          <li>
+            <a href="#journey">Mon trajet</a>
+          </li>
+        </div>
+        <div className="right">
+          <a href="#" className='button1'>Je Participe !</a>
+        </div>
+      </ul>
     </div>
   )
 }

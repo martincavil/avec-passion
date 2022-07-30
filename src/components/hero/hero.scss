@@ -1,0 +1,15 @@
+@import '../../global.scss';
+
+.hero {
+    display: grid;
+    grid-template-rows: 2;
+    gap: 32px;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+}

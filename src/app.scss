@@ -1,0 +1,43 @@
+@import './global.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primary-font;
+    color: black;
+    &::selection {
+      background: $secondary-color;
+    }
+}
+
+body {
+  background-color: $bcg-primary;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;;
+}
+
+.app {
+    .sections {
+      width: 100%;
+      height: calc(100vh - 70px);
+      position: relative;
+      top: 70px;
+
+      > * {
+        width: 100vw;
+        height: calc(100vh - 70px);
+      }
+    }
+
+    
+}
+
