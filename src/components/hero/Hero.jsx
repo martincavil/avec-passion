@@ -10,6 +10,10 @@ export default function Hero() {
         <div className='participants'></div>
         <a href="#" className='button1'>Je participe !</a>
       </div>
+      <div className="right">
+          <div className="first-picture"></div>
+          <div className="second-picture"></div>
+      </div>
     </div>
   )
 }

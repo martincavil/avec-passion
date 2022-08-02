@@ -1,15 +1,36 @@
 @import '../../global.scss';
 
 .hero {
-    display: grid;
-    grid-template-rows: 2;
-    gap: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     .left {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+        height: 80%;
+    }
+    .right {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        padding: 5rem;
+        position: relative;
+
+        .first-picture {
+            background-color: $primary-color;
+            width: 400px;
+            height: 400px;
+        }
+        .second-picture {
+            background-color: $secondary-color;
+            width: 200px;
+            height: 200px;
+            margin-left: 10px;
+            margin-top: 30px;
+        }
     }
 
 }
