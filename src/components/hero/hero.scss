@@ -10,7 +10,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        height: 80%;
+        height: 100%;
     }
     .right {
         display: flex;
@@ -20,9 +20,8 @@
         position: relative;
 
         .first-picture {
-            background-color: $primary-color;
-            width: 400px;
-            height: 400px;
+            width: 100%;
+            height: 100%;
         }
         .second-picture {
             background-color: $secondary-color;
