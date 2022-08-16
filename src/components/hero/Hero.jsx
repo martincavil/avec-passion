@@ -14,7 +14,7 @@ export default function Hero() {
           Plus je verrais de ville, plus je pourrais quêter en direct avec les autochtones pour récolter encore plus de sous.
         </p>
         <div className='participants'></div>
-        <a href="#" className='button1'>Je participe !</a>
+        <a href="https://www.helloasso.com/associations/fondation-pour-la-recherche-sur-les-avc/collectes/rando-velo#tickets" className='button1'>Je participe !</a>
       </div>
       <div className="right">
           <div className="first-picture">

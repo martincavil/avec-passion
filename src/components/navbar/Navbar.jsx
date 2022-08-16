@@ -21,7 +21,7 @@ export default function Navbar() {
           </li>
         </div>
         <div className="right">
-          <a href="#" className='button1'>Je Participe !</a>
+          <a href="https://www.helloasso.com/associations/fondation-pour-la-recherche-sur-les-avc/collectes/rando-velo#tickets" className='button1'>Je Participe !</a>
         </div>
       </ul>
     </div>

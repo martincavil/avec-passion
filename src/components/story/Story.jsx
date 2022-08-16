@@ -6,7 +6,7 @@ export default function Story() {
     <div id='story' className='container story'>
 
         <div className='left'>
-          <img src="" alt="" />
+          <img src="/assets/images/IMG_3768.jpg" alt="" />
         </div>
 
         <div className='right'>

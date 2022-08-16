@@ -3,13 +3,16 @@
 .story {
     height: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     .left {
-        background-color: $primary-color;
         width: 40%;
         height: 100%;
+
+        img {
+            height: 100%;
+        }
     }
 
     .right {
